@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Yugantar Public School | Morena</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+font-family:Arial,Helvetica,sans-serif;
+line-height:1.6;
+background:#f7f8fc;
+color:#182033
+}
+header{
+background:#07152f;
+color:white;
+position:sticky;
+top:0;
+z-index:1000;
+box-shadow:0 3px 15px #0003
+}
+.nav{
+max-width:1200px;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:14px 20px
+}
+.logo{
+font-size:21px;
+font-weight:800;
+color:#d8b45a
+}
+nav a{
+color:white;
+text-decoration:none;
+margin-left:22px;
+font-size:14px
+}
+nav a:hover{color:#d8b45a}
+
+.hero{
+min-height:88vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:60px 20px;
+background:linear-gradient(135deg,#07152f,#153a6b)
+}
+.hero h1{
+font-size:clamp(38px,7vw,76px);
+color:white;
+margin-bottom:12px
+}
+.hero h2{
+color:#e3c36b;
+font-size:clamp(20px,4vw,34px);
+margin-bottom:20px
+}
+.hero p{
+color:#e9edf5;
+max-width:700px;
+margin:auto;
+font-size:18px
+}
+.btn{
+display:inline-block;
+margin-top:28px;
+padding:13px 25px;
+border-radius:30px;
+background:#d8b45a;
+color:#07152f;
+text-decoration:none;
+font-weight:bold
+}
+
+section{
+max-width:1200px;
+margin:auto;
+padding:75px 20px
+}
+.title{
+text-align:center;
+font-size:35px;
+margin-bottom:12px;
+color:#07152f
+}
+.subtitle{
+text-align:center;
+color:#697386;
+margin-bottom:45px
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:22px
+}
+.card{
+background:white;
+padding:28px;
+border-radius:16px;
+box-shadow:0 8px 30px #14213d12;
+border:1px solid #e8eaf0
+}
+.card h3{
+color:#123c73;
+margin-bottom:10px
+}
+
+.leaders{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px
+}
+.leader{
+background:white;
+text-align:center;
+padding:35px 20px;
+border-radius:18px;
+box-shadow:0 8px 30px #00000012
+}
+.avatar{
+width:100px;
+height:100px;
+margin:0 auto 18px;
+border-radius:50%;
+background:#07152f;
+display:flex;
+align-items:center;
+justify-content:center;
+color:#d8b45a;
+font-size:35px;
+font-weight:bold
+}
+.leader h3{margin-bottom:5px}
+.leader p{color:#697386}
+
+.notice{
+background:#07152f;
+color:white;
+border-radius:18px;
+padding:30px
+}
+.notice li{
+margin:12px 0;
+list-style:none;
+border-bottom:1px solid #ffffff22;
+padding-bottom:10px
+}
+
+.contact{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px
+}
+.contact-box{
+background:white;
+padding:30px;
+border-radius:18px;
+box-shadow:0 8px 30px #00000012
+}
+.contact-box h3{
+color:#123c73;
+margin-bottom:10px
+}
+.contact-box a{
+color:#123c73;
+text-decoration:none
+}
+
+footer{
+background:#07152f;
+color:white;
+text-align:center;
+padding:35px 20px
+}
+footer strong{color:#d8b45a}
+
+@media(max-width:700px){
+nav{display:none}
+.hero{min-height:80vh}
+section{padding:55px 17px}
+.title{font-size:29px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="nav">
+<div class="logo">YUGANTAR PUBLIC SCHOOL</div>
+<nav>
+<a href="#about">About</a>
+<a href="#academics">Academics</a>
+<a href="#leadership">Leadership</a>
+<a href="#notices">Notices</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div>
+<h1>YUGANTAR</h1>
+<h2>PUBLIC SCHOOL</h2>
+<p>
+A modern learning environment dedicated to knowledge,
+discipline, character and overall development of students.
+</p>
+<a class="btn" href="#about">Explore Our School</a>
+</div>
+</section>
+
+<section id="about">
+<h2 class="title">About Our School</h2>
+<p class="subtitle">Learning today. Leading tomorrow.</p>
+
+<div class="cards">
+<div class="card">
+<h3>Our Vision</h3>
+<p>
+To provide quality education and develop confident,
+responsible and capable citizens who contribute positively
+to society.
+</p>
+</div>
+
+<div class="card">
+<h3>Our Mission</h3>
+<p>
+To create a safe, disciplined and encouraging environment
+where every student gets opportunities to learn, grow and
+discover their potential.
+</p>
+</div>
+
+<div class="card">
+<h3>Our Values</h3>
+<p>
+Discipline, integrity, respect, teamwork, responsibility,
+hard work and continuous learning.
+</p>
+</div>
+</div>
+</section>
+
+<section id="academics">
+<h2 class="title">Academics</h2>
+<p class="subtitle">Building strong foundations for the future.</p>
+
+<div class="cards">
+<div class="card">
+<h3>Quality Education</h3>
+<p>
+Concept-based learning with focus on understanding,
+creativity and academic excellence.
+</p>
+</div>
+
+<div class="card">
+<h3>Student Development</h3>
+<p>
+Academic learning is supported by sports, activities,
+communication skills and personality development.
+</p>
+</div>
+
+<div class="card">
+<h3>Modern Learning</h3>
+<p>
+Technology and innovative teaching methods are used to
+make learning engaging and effective.
+</p>
+</div>
+
+<div class="card">
+<h3>Co-Curricular Activities</h3>
+<p>
+Students are encouraged to participate in cultural,
+sports and educational activities.
+</p>
+</div>
+</div>
+</section>
+
+<section id="leadership">
+<h2 class="title">School Leadership</h2>
+<p class="subtitle">Experienced leadership with a student-first approach.</p>
+
+<div class="leaders">
+
+<div class="leader">
+<div class="avatar">AC</div>
+<h3>Mrs Anuradha Chauhan</h3>
+<p>Director</p>
+</div>
+
+<div class="leader">
+<div class="avatar">PS</div>
+<h3>Mrs Pratima Sikarwar</h3>
+<p>Principal</p>
+</div>
+
+</div>
+</section>
+
+<section id="notices">
+<h2 class="title">Notice Board</h2>
+<p class="subtitle">Important school updates</p>
+
+<div class="notice">
+<ul>
+<li>📢 Welcome to Yugantar Public School, Morena.</li>
+<li>📚 Students are encouraged to maintain regular attendance.</li>
+<li>🏆 Participation in sports and co-curricular activities is encouraged.</li>
+<li>📖 Parents are requested to stay connected with school updates.</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2 class="title">Events & Activities</h2>
+<p class="subtitle">Learning beyond the classroom.</p>
+
+<div class="cards">
+<div class="card">
+<h3>🏆 Sports</h3>
+<p>Cricket, volleyball and other sports activities to encourage fitness and teamwork.</p>
+</div>
+
+<div class="card">
+<h3>🎨 Cultural Activities</h3>
+<p>Creative and cultural activities that help students express their talent.</p>
+</div>
+
+<div class="card">
+<h3>🧠 Academic Activities</h3>
+<p>Competitions and educational activities designed to develop curiosity and confidence.</p>
+</div>
+
+<div class="card">
+<h3>🌱 Personality Development</h3>
+<p>Activities focused on communication, discipline, leadership and responsibility.</p>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="title">Contact Us</h2>
+<p class="subtitle">We would be happy to connect with you.</p>
+
+<div class="contact">
+
+<div class="contact-box">
+<h3>📍 School Address</h3>
+<p>
+Yugantar Public School<br>
+Brajdham Colony,<br>
+Morena, Madhya Pradesh – 476001
+</p>
+</div>
+
+<div class="contact-box">
+<h3>📞 Phone</h3>
+<p>
+<a href="tel:+917697456369">+91 76974 56369</a><br>
+<a href="tel:+917067324641">+91 70673 24641</a>
+</p>
+</div>
+
+<div class="contact-box">
+<h3>🏫 School</h3>
+<p>
+<strong>YUGANTAR PUBLIC SCHOOL</strong><br>
+Morena, Madhya Pradesh
+</p>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 <strong>Yugantar Public School</strong>, Morena</p>
+<p>Quality Education • Discipline • Excellence</p>
+</footer>
+
+</body>
+</html>
